@@ -1,0 +1,79 @@
+.topDiv{
+    width:600px;
+    height:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 20px;
+   /* ✨ Better shadow */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3),
+              0 0 40px rgba(138, 43, 226, 0.3); /* rebeccapurple glow */
+
+}
+
+h1{
+
+    font-family: 'Courier New', Courier, monospace;
+}
+.ddiv{
+
+    display: flex;
+    gap:20px;
+    width:100%;
+    justify-content: center;
+    height:200px;
+    align-items: center;
+
+
+}
+
+.ddiv > button{
+    background-color: rebeccapurple;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    color:aliceblue;
+    cursor: pointer;
+}
+.ddiv  input{
+    background-color:white;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-style: 1px solid #fff;
+    
+}
+
+.passdiv{
+    display: flex;
+    width:100%;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.passdiv p{
+      background-color:white;
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    color: #333;
+    text-align: center;
+    display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  margin: 0;  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3),
+              0 0 40px rgba(138, 43, 226, 0.3); /* rebeccapurple glow */
+
+}
